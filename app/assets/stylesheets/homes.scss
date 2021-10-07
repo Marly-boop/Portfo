@@ -12,7 +12,7 @@ body {
     background-position: center;
     padding: 200px 0;
     margin: -20px;
-    height: 600px;
+    height: 400px;
 }
 .container {
     display: grid;
@@ -113,7 +113,9 @@ h3 {
 }
 
 .stack {
-    display: flex;
+    display: grid;
+    grid-template-rows:    repeat(4, 100px);
+    grid-template-columns: repeat(3, 1fr);
     background-color: aliceblue;
     padding: 30px;
     margin-right: -20px;
