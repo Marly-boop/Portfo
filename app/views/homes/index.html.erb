@@ -1,79 +1,70 @@
 <div class="banner">
   <div class="container">
     <h1>Marly's Portfolio</h1>
-    <h3>Ruby on Rails Developer</h3>
+    <h3>Junior Developer</h3>
   </div>
 </div>
 
 <div class="about">
   <h2>My Story</h2>
-  <p>During my final internship year I had the opportunity to meet an EPITA alumnus. 
-    We had an interesting exchange in which he told me with such dedication his passion for programming that at the end the only thing I remembered was 
+  <p>During my final internship year I had the opportunity to meet an EPITA alumnus.
+    We had an interesting exchange in which he told me with such dedication his passion for programming that at the end the only thing I remembered was
     to be as passionate as he was. You can see below my first projects in Rails. The best is yet to come!</p>
 </div>
 
-<h4>Techs Tools</h4>
-<div class="stack">
-  <div>
-    <a href="https://www.git-scm.com">
-      <img src="https://img.icons8.com/color/96/000000/git.png"/>
-    </a>
-  </div>
-  <div>
-    <a href="https://www.kernel.org">
-      <img src="https://img.icons8.com/color/96/000000/linux--v1.png"/>
-    </a>
-  </div>
-  <div>
-    <a href="https://www.ruby-lang.org">
-      <img src="https://img.icons8.com/color/96/000000/ruby-programming-language.png"/>
-    </a>
-  </div>
-   <div>
-    <a href="https://www.getbootstrap.com">
-      <img src="https://img.icons8.com/color/96/000000/bootstrap.png"/>
-    </a>
-  </div>
-  <div>
-    <a href="https://www.postgresql.org">
-      <img src="https://img.icons8.com/color/96/000000/postgreesql.png"/>
-    </a>
-  </div>
-  <div>
-    <a href="https://www.heroku.com">
-      <img src="https://img.icons8.com/color/96/000000/heroku.png"/>
-    </a>
-  </div>
-   <div>
-    <a href="https://rubyonrails.org">
-      <img src="https://img.icons8.com/windows/96/000000/ruby-on-rails.png"/>
-    </a>
-  </div>
-  <div>
-    <a href="https://visualstudiocode.com">
-      <img src="https://img.icons8.com/color/96/000000/visual-studio-code-2019.png"/>
-    </a>
-  </div>
-  <div>
-    <a href="https://vmware.com">
-      <img src="https://img.icons8.com/color/96/000000/vmware.png"/>
-    </a>
-  </div>
+<div class="skill-container">
+    <div class="col-7">
+      <ul class="skill-ball-unordered">
+        <li class="skill-ball ball-1 fade-in">
+          <%= image_tag("heroku.png", class: "heroku-pic") %>
+        </li>
+        <li class="skill-ball ball-2 fade-in">
+          <%= image_tag("rails.png", class: "rails-pic") %>
+        </li>
+        <li class="skill-ball ball-3 fade-in">
+          <%= image_tag("css.png", class: "css-pic") %>
+        </li>
+        <li class="skill-ball ball-4 fade-in">
+          <%= image_tag("reactjs.png", class: "react-pic") %>
+        </li>
+        <li class="skill-ball ball-5 fade-in">
+          <%= image_tag("javascript.png", class: "java-pic") %>
+        </li>
+        <li class="skill-ball ball-6 fade-in">
+          <%= image_tag("ruby.png", class: "ruby-pic") %>
+        </li>
+        <li class="skill-ball ball-7 fade-in">
+          <%= image_tag("bootstrap.png", class: "boot-pic") %>
+        </li>
+        <li class="skill-ball ball-8 fade-in">
+          <%= image_tag("postgresql.png", class: "post-pic") %>
+        </li>
+      </ul>
+    </div>
 </div>
 <div class="projects">
   <h2>Projects</h2>
   <div class="cards">
     <div id="card">
-      <img src="https://images.unsplash.com/photo-1561084746-f360502e5abe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="creature in the forest">
+      <img src="https://images.unsplash.com/photo-1561084746-f360502e5abe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+           alt="creature in the forest">
       <h3>Rent a Creature</h3>
       <p>Web fantasy app to rent a fictive creature or obtain one</p>
-      <a class="btn-primary" href="https://rentacreature-dustinstender.herokuapp.com/" target="_blank" rel="noopener noreferrer">Look here</a>
+      <a class="btn-primary" href="https://rentacreature-dustinstender.herokuapp.com/" target="_blank"
+         rel="noopener noreferrer">Look here</a>
     </div>
     <div id="card">
-      <img src="https://images.unsplash.com/photo-1587854680352-936b22b91030?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" alt="drugs in rose-background">
+      <img src="https://images.unsplash.com/photo-1587854680352-936b22b91030?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80"
+           alt="drugs in rose-background">
       <h3>Drug Dealer</h3>
       <p>Mobile app for who wants to receive medication delivered at their doorstep</p>
       <a class="btn-primary" href="https://www.drug-dealer.one" target="_blank" rel="noopener noreferrer">Look here</a>
+    </div>
+    <div id="card">
+      <img src="https://images.unsplash.com/photo-1591825729269-caeb344f6df2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+           alt="Buddha painting in-front-of sofa">
+      <h3>Home Tour</h3>
+      <p>Under Construction....</p>
     </div>
   </div>
 </div>
